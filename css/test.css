@@ -4,7 +4,7 @@
   right: 0; 
   bottom: 0;
   min-width: 100%; 
-  min-height: 50%;
+  min-height: 100%;
   width: auto; 
   height: auto;
   z-index: -1;
@@ -64,9 +64,10 @@ body {
 }
 .svg-wrapper {
  position: absolute;
-	top: 70%;
+	bottom:300px;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
 }
 .shape {
   stroke-dasharray: 140 540;
@@ -76,20 +77,30 @@ body {
   stroke: #19f6e8;
   border-bottom: 5px solid black;
   transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+
 }
 .text {
-  font-family: 'Roboto Condensed';
-  font-size: 22px;
-  line-height: 32px;
-  letter-spacing: 8px;
+  font-family:'Sedgwick Ave Display', cursive;
+  font-size: 21px;
+  
+  letter-spacing: 4px;
   color: #fff;
-  top: -48px;
-  position: relative;
+  /*bottom: 15%;
+  left: 30%;
+  position: absolute;*/
+
+
+ position: absolute;
+  bottom:-25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 .svg-wrapper:hover .shape {
   stroke-width: 5px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
+
 }
 
 .text a {
@@ -97,4 +108,21 @@ body {
 	color: white;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.ready {
+  position: absolute;
+  bottom:-20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: white;
+
+}
+
+.text a:hover {
+  font-family:'Sedgwick Ave Display', cursive;
+  color: #6BF178;
+  
+}
+
+
+
