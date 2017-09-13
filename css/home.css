@@ -101,4 +101,17 @@ a:hover {
 
 h1,h2 {
 	font-family: 'Abril Fatface', cursive;
+	word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    text-align: center;
 }
+
+footer div.row {
+	background: lightgrey;
+}
+
+

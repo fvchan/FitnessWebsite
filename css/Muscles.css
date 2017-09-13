@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Josefin+Sans');
 .navbar-default .navbar-nav > li > a:hover {
     color: white;
 }
@@ -68,4 +68,9 @@ img[alt^="se"] {
 
 body {
 	font-family: 'Playfair Display', serif !important;
+}
+
+
+div.page-header h1 {
+	font-family: 'Baloo Tammudu', cursive !important;
 }
